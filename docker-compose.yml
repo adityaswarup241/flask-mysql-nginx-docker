@@ -5,7 +5,7 @@ services:
     restart: always
     image: mysql:5.7
     environment:
-      - MYSQL_ROOT_PASSWORD=demo
+      - MYSQL_ROOT_PASSWORD=rootroot
     volumes:
       - ./mysql_data:/var/lib/mysql
     ports:

@@ -1,6 +1,6 @@
 FROM python:3.5
 
-MAINTAINER Koen Rutten <lijst@twilights.be>
+MAINTAINER Aditya Swarup <adityaswarup241@gmail.com>
 
 # Install uWSGI
 RUN pip install uwsgi
